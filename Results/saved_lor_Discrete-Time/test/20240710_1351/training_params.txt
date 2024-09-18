@@ -1,0 +1,26 @@
+训练数据集大小N_E = 1000
+验证数据集大小N_CV = 100
+测试数据集大小N_T = 200
+数据集的初始条件offset = 0
+use_cuda = True
+T = 100
+T_test = 100
+使用已知随机初始值进行训练KnownRandInit_train = False
+训练集使用随机初始状态randomInit_train = True
+input distribution for the random initial state = normal
+训练次数n_steps = 3000
+n_batch = 30
+lr = 0.0001
+wd = 0.0001
+chop是否切割数据集 = False
+switch = partial
+r2 = tensor([0.1000])
+vdB = -20
+std_feed = 50
+std_gen = 1
+m1x_0 = tensor([[1.],
+        [1.],
+        [1.]])
+m1x_00 = tensor([[1.],
+        [1.],
+        [1.]])

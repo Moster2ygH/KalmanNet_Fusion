@@ -1,0 +1,12 @@
+训练数据集大小N_E = 1000
+验证数据集大小N_CV = 100
+测试数据集大小N_T = 200
+数据集的初始条件offset = 0
+use_cuda = True
+仿真步长T = 100
+T_test = 100
+训练次数n_steps = 20
+chop = False
+switch = partial
+r2 = 0.1
+vdB = -20

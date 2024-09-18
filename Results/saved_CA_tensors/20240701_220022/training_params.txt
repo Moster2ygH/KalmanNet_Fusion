@@ -1,0 +1,17 @@
+N_E = 1000
+N_CV = 100
+N_T = 200
+offset = 0
+randomInit_train = True
+randomInit_cv = True
+randomInit_test = True
+T = 100
+T_test = 100
+KnownRandInit_train = True
+KnownRandInit_cv = True
+KnownRandInit_test = True
+use_cuda = True
+n_steps = 50
+n_batch = 10
+lr = 0.0001
+wd = 0.0001

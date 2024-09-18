@@ -1,0 +1,8 @@
+formatted_datetime,r2,MSE_EKF_linear_avg,MSE_EKF_dB_avg,MSE_test_linear_avg,MSE_test_dB_avg
+20240703_112807,tensor([0.1000]),tensor(0.0102),tensor(-19.9291),tensor(0.1125),tensor(-9.4892)
+20240703_112904,tensor([0.1000]),tensor(0.0101),tensor(-19.9371),tensor(0.0935),tensor(-10.2918)
+20240703_114627,tensor([0.1000]),tensor(0.0102),tensor(-19.9041),tensor(0.0107),tensor(-19.6898)
+20240703_180707,tensor([0.1000]),tensor(0.0126),tensor(-18.9908),tensor(0.0573),tensor(-12.4221)
+20240703_182048,tensor([0.0500]),tensor(0.0301),tensor(-15.2133),tensor(0.8235),tensor(-0.8433)
+20240703_183036,tensor([0.1000]),tensor(0.0123),tensor(-19.0844),tensor(0.2603),tensor(-5.8460)
+20240703_183345,tensor([0.1000]),tensor(0.0131),tensor(-18.8173),tensor(0.0252),tensor(-15.9792),tensor(8.3040),tensor(9.1929)

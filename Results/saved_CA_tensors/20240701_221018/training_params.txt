@@ -1,0 +1,17 @@
+训练数据集大小N_E = 1000
+验证数据集大小N_CV = 100
+测试数据集大小N_T = 200
+数据集的初始条件offset = 0
+use_cuda = True
+仿真步长T = 100
+T_test = 100
+使用已知随机初始值进行训练KnownRandInit_train = True
+使用已知随机初始值进行验证KnownRandInit_cv = True
+使用已知随机初始值进行测试KnownRandInit_test = True
+训练集使用随机初始状态randomInit_train = True
+验证集使用随机初始状态randomInit_cv = True
+测试集使用随机初始状态randomInit_test = True
+训练次数n_steps = 4500
+batch_size n_batch = 10
+学习率lr = 0.0001
+wd = 0.0001

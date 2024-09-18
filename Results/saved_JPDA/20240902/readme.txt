@@ -1,0 +1,4 @@
+test0 是test_main.py产生的  test_main.py执行不同n次分布的测试结果
+test是test_model.py和test_model_distri.py产生的  test_model_distri.py测试的是不同分布下，版本更新 都是一次测试
+
+Extended_sysmdl_test.py 是 test_main.py等产生不同分布时，使用的系统模型，相比Extended_sysmdl 修改了类中 加入了self.x0_distributions_gen量，传入了主函数生成的不同分布

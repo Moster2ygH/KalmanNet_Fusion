@@ -1,0 +1,66 @@
+m1x_0,m1x_00,std_gen,std_feed,MSE_EKF_dB_avg,MSE_EKF_dB_avg_partial,MSE_test_dB_avg
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[5.],
+        [1.],
+        [1.]])",1,1,tensor(-18.7579),tensor(-15.8230),tensor(-18.0068)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[50.],
+        [ 1.],
+        [ 1.]])",1,1,tensor(-18.9354),tensor(-8.0952),tensor(-9.1483)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[50.],
+        [ 1.],
+        [ 1.]])",1,1,tensor(-18.9096),tensor(-8.0282),tensor(-9.0950)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",10,1,tensor(-15.5180),tensor(-13.5344),tensor(-12.7070)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",20,1,tensor(-10.9472),tensor(-9.1000),tensor(-3.9620)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",0.1,1,tensor(-19.0534),tensor(-16.2259),tensor(-18.8130)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",1,1000,tensor(74.8004),tensor(-14.9851),tensor(-18.4712)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",1,100,tensor(-18.7985),tensor(-16.0951),tensor(-18.3541)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",1,1000,tensor(nan),tensor(-15.4328),tensor(-18.3664)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",1,50,tensor(-18.7387),tensor(-15.9569),tensor(-18.4054)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",1,50,tensor(nan),tensor(nan),tensor(nan)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",1,50,tensor(nan),tensor(nan),tensor(nan)
+"tensor([[1.],
+        [1.],
+        [1.]])","tensor([[1.],
+        [1.],
+        [1.]])",1,50,tensor(-17.1468),tensor(7.2558),tensor(13.1663)

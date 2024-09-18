@@ -1,0 +1,67 @@
+Current Time = 07.01.24_21:54:28
+Pipeline Start
+Using GPU
+Start Data Gen
+Load Original Data
+Data Shape
+testset state x size: torch.Size([200, 3, 100])
+testset observation y size: torch.Size([200, 1, 100])
+trainset state x size: torch.Size([1000, 3, 100])
+trainset observation y size: torch.Size([1000, 1, 100])
+cvset state x size: torch.Size([100, 3, 100])
+cvset observation y size: torch.Size([100, 1, 100])
+Compute Loss on All States (if false, loss on position only): False
+**********************Evaluation***********************
+Number of trainable parameters for KNet pass 1: 7668
+Train KNet with Known Random Initial State
+Train Loss on All States (if false, loss on position only): True
+0 MSE Training : tensor(23.0502) [dB] MSE Validation : tensor(9.2224) [dB]
+Optimal idx: 0 Optimal : tensor(9.2224) [dB]
+10 MSE Training : tensor(-4.7475) [dB] MSE Validation : tensor(-5.7319) [dB]
+diff MSE Training : tensor(-0.5022) [dB] diff MSE Validation : tensor(-0.0263) [dB]
+Optimal idx: 10 Optimal : tensor(-5.7319) [dB]
+20 MSE Training : tensor(-5.9372) [dB] MSE Validation : tensor(-5.8617) [dB]
+diff MSE Training : tensor(-2.4564) [dB] diff MSE Validation : tensor(8.5831e-05) [dB]
+Optimal idx: 19 Optimal : tensor(-5.8618) [dB]
+30 MSE Training : tensor(-4.7797) [dB] MSE Validation : tensor(-5.8972) [dB]
+diff MSE Training : tensor(0.4840) [dB] diff MSE Validation : tensor(-0.0035) [dB]
+Optimal idx: 30 Optimal : tensor(-5.8972) [dB]
+40 MSE Training : tensor(-5.4487) [dB] MSE Validation : tensor(-5.9165) [dB]
+diff MSE Training : tensor(0.8093) [dB] diff MSE Validation : tensor(-0.0010) [dB]
+Optimal idx: 40 Optimal : tensor(-5.9165) [dB]
+Test KNet with Known Random Initial State
+Compute Loss on All States (if false, loss on position only): False
+KNet-MSE Test: tensor(-17.9423) [dB]
+KNet-STD Test: tensor(3.0944) [dB]
+Inference Time: 0.1365375518798828
+Evaluate Kalman Filter
+Kalman Filter - MSE LOSS: tensor(-22.6558) [dB]
+Kalman Filter - STD: tensor(3.3812) [dB]
+Inference Time: 0.04305553436279297
+Current Time = 07.01.24_21:54:28
+张量已保存到: Results/saved_CA_tensors/20240701_215428\test_target.pt
+张量已保存到: Results/saved_CA_tensors/20240701_215428\KF_out.pt
+张量已保存到: Results/saved_CA_tensors/20240701_215428\KNet_out.pt
+训练参数已保存到 Results/saved_CA_tensors/20240701_215428\training_params.txt
+文件已成功复制到 Results/saved_CA_tensors/20240701_215428\best-model.pt
+张量已保存到文件: Results/saved_CA_tensors/20240701_215428\saved_tensors.pkl
+MSE_KF_linear_avg:
+tensor(0.0054)
+
+MSE_KF_dB_avg:
+tensor(-22.6558)
+
+MSE_test_linear_avg:
+tensor(0.0161)
+
+MSE_test_dB_avg:
+tensor(-17.9423)
+
+Plot
+MSE_train_dB_epoch 已保存到: Results/saved_CA_tensors/20240701_215428\MSE_train_dB_epoch.pt
+MSE_train_dB_epoch 已从 Results/saved_CA_tensors/20240701_215428\MSE_train_dB_epoch.pt 加载。
+损失曲线图已保存到 Results/saved_CA_tensors/20240701_215428\MSE_train_dB_epoch.png
+Traceback (most recent call last):
+  File "F:\6.code\DRL\KalmanNet_TSP-main\main_linear_CA.py", line 349, in <module>
+    f.flush()#
+ValueError: I/O operation on closed file.

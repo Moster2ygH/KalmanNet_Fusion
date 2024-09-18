@@ -1,0 +1,7 @@
+formatted_datetime,r2,m1x_0,std_gen,std_feed,MSE_EKF_dB_avg,MSE_EKF_dB_avg_partial,MSE_test_dB_avg
+20240704_103748,tensor([0.1000]),"tensor([[1.],
+        [1.],
+        [1.]])",10,10,tensor(-19.0801),tensor(-15.4277),tensor(11.1130)
+20240704_103922,tensor([0.1000]),"tensor([[1.],
+        [1.],
+        [1.]])",10,10,tensor(-19.1225),tensor(-15.5714),tensor(7.3892)

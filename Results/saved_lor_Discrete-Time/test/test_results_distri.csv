@@ -1,0 +1,29 @@
+formatted_datetime,chop,args.T,args.T_short,args.randomInit_train,args.randomInit_test,KnownRandInit_train ,r2,m1x_0,m2x_0,m2x_0_gen,std_gen,std_feed,dist_similarity,MSE_EKF_dB_avg,MSE_EKF_dB_avg_partial,MSE_test_dB_avg
+20240710_2009,False,100,100,True,True,False,tensor([0.1000]),"tensor([[20.],
+        [ 5.],
+        [ 1.]])","tensor([[400.,   0.,   0.],
+        [  0., 400.,   0.],
+        [  0.,   0., 400.]])","tensor([[9., 0., 0.],
+        [0., 9., 0.],
+        [0., 0., 9.]])",3,20,11.550831317901611,tensor(-18.4351),tensor(-2.9503),tensor(-0.3384)
+20240710_2010,False,100,100,True,True,False,tensor([0.1000]),"tensor([[20.],
+        [ 5.],
+        [ 1.]])","tensor([[400.,   0.,   0.],
+        [  0., 400.,   0.],
+        [  0.,   0., 400.]])","tensor([[9., 0., 0.],
+        [0., 9., 0.],
+        [0., 0., 9.]])",3,20,4.743157243728637,tensor(-18.6131),tensor(-5.8252),tensor(-1.8804)
+20240710_2010,False,100,100,True,True,False,tensor([0.1000]),"tensor([[20.],
+        [ 5.],
+        [ 1.]])","tensor([[400.,   0.,   0.],
+        [  0., 400.,   0.],
+        [  0.,   0., 400.]])","tensor([[9., 0., 0.],
+        [0., 9., 0.],
+        [0., 0., 9.]])",3,20,8.34188895225525,tensor(-18.7524),tensor(-8.5349),tensor(-8.3861)
+20240710_2010,False,100,100,True,True,False,tensor([0.1000]),"tensor([[20.],
+        [ 5.],
+        [ 1.]])","tensor([[400.,   0.,   0.],
+        [  0., 400.,   0.],
+        [  0.,   0., 400.]])","tensor([[9., 0., 0.],
+        [0., 9., 0.],
+        [0., 0., 9.]])",3,20,6.620338559150696,tensor(-18.3957),tensor(-1.6938),tensor(6.2580)

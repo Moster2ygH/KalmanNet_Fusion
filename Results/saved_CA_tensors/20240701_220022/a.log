@@ -1,0 +1,63 @@
+Current Time = 07.01.24_22:00:22
+Pipeline Start
+Using GPU
+Start Data Gen
+Load Original Data
+Data Shape
+testset state x size: torch.Size([200, 3, 100])
+testset observation y size: torch.Size([200, 1, 100])
+trainset state x size: torch.Size([1000, 3, 100])
+trainset observation y size: torch.Size([1000, 1, 100])
+cvset state x size: torch.Size([100, 3, 100])
+cvset observation y size: torch.Size([100, 1, 100])
+Compute Loss on All States (if false, loss on position only): False
+**********************Evaluation***********************
+Number of trainable parameters for KNet pass 1: 7668
+Train KNet with Known Random Initial State
+Train Loss on All States (if false, loss on position only): True
+0 MSE Training : tensor(-4.0291) [dB] MSE Validation : tensor(-4.7223) [dB]
+Optimal idx: 0 Optimal : tensor(-4.7223) [dB]
+10 MSE Training : tensor(-7.4001) [dB] MSE Validation : tensor(-5.1776) [dB]
+diff MSE Training : tensor(-1.8612) [dB] diff MSE Validation : tensor(-0.0323) [dB]
+Optimal idx: 10 Optimal : tensor(-5.1776) [dB]
+20 MSE Training : tensor(-8.2608) [dB] MSE Validation : tensor(-5.4460) [dB]
+diff MSE Training : tensor(-1.7124) [dB] diff MSE Validation : tensor(-0.0227) [dB]
+Optimal idx: 20 Optimal : tensor(-5.4460) [dB]
+30 MSE Training : tensor(-5.1903) [dB] MSE Validation : tensor(-5.6643) [dB]
+diff MSE Training : tensor(-1.1147) [dB] diff MSE Validation : tensor(-0.0248) [dB]
+Optimal idx: 30 Optimal : tensor(-5.6643) [dB]
+40 MSE Training : tensor(-7.1500) [dB] MSE Validation : tensor(-5.9058) [dB]
+diff MSE Training : tensor(-2.0082) [dB] diff MSE Validation : tensor(-0.0239) [dB]
+Optimal idx: 40 Optimal : tensor(-5.9058) [dB]
+Test KNet with Known Random Initial State
+Compute Loss on All States (if false, loss on position only): False
+KNet-MSE Test: tensor(-14.6543) [dB]
+KNet-STD Test: tensor(2.1891) [dB]
+Inference Time: 0.13857531547546387
+Evaluate Kalman Filter
+Kalman Filter - MSE LOSS: tensor(-21.9860) [dB]
+Kalman Filter - STD: tensor(3.5846) [dB]
+Inference Time: 0.04395318031311035
+Current Time = 07.01.24_22:00:22
+张量已保存到: Results/saved_CA_tensors/20240701_220022\test_target.pt
+张量已保存到: Results/saved_CA_tensors/20240701_220022\KF_out.pt
+张量已保存到: Results/saved_CA_tensors/20240701_220022\KNet_out.pt
+训练参数已保存到 Results/saved_CA_tensors/20240701_220022\training_params.txt
+文件已成功复制到 Results/saved_CA_tensors/20240701_220022\best-model.pt
+张量已保存到文件: Results/saved_CA_tensors/20240701_220022\saved_tensors.pkl
+MSE_KF_linear_avg:
+tensor(0.0063)
+
+MSE_KF_dB_avg:
+tensor(-21.9860)
+
+MSE_test_linear_avg:
+tensor(0.0342)
+
+MSE_test_dB_avg:
+tensor(-14.6543)
+
+Plot
+MSE_train_dB_epoch 已保存到: Results/saved_CA_tensors/20240701_220022\MSE_train_dB_epoch.pt
+MSE_train_dB_epoch 已从 Results/saved_CA_tensors/20240701_220022\MSE_train_dB_epoch.pt 加载。
+损失曲线图已保存到 Results/saved_CA_tensors/20240701_220022\MSE_train_dB_epoch.png
